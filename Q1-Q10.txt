@@ -1,0 +1,46 @@
+ Find time complexity of the following code ?
+
+ for (i=1 ; i<n;i++){
+
+for (j=1;j<n;j++)
+x=x+1;
+for (k=1; k<n,k=2*k)
+x=x+1;
+
+
+ }
+
+ Answer=
+ for inner loops
+ loop-1= O(n)
+ loop-2=O(log n )
+ normal loops addition
+ n+log n = n [here we take max (n,log n )]
+ for main loop 
+ O(n)
+
+
+ NOW 
+ for nested loops 
+ O(n) * O(n) = O(n sqaure )
+Answer
+
+***************************
+key points
+i++ | O(n)
+J++ | O(n)
+i++ & j++ | O(n+m)
+i++ * j++ | O(nm)
+i/2 | log n 
+i/3 | n log n
+
+
+*******************
+Fastest =
+log n 
+sqrt n
+n
+n sqaure
+n cube 
+
+
